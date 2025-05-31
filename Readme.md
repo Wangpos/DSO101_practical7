@@ -38,54 +38,23 @@ Retrieval method: "Modern SCM" > "Git"
 
 Project repository URL: Your Git repository URL
 
-![alt text](images/global2.png)
+![alt text](images/golbal.png)
 
 ### 5. Create Jenkins Pipeline Job
 
 Create a new Pipeline job in Jenkins
 
-![alt text](images/pipeline1.png)
+![alt text](images/pipeline.png)
 
 Configure source code management to pull from your application repository
 
 Set the Jenkinsfile path
 
-Path set as example-app/Jenkinsfile
+Path set as node-app/Jenkinsfile
 
-![alt text](images/path.png)
+![alt text](images/scriptpath.png)
 
-![alt text](images/pipeline.png)
+![alt text](images/pipeline2.png)
 
 Run the pipeline
 
-![alt text](images/success.png)
-
-![alt text](images/success1.png)
-
-Image pushed in dockerhub
-
-![alt text](images/success2.png)
-
-
-
-## Learning Outcomes
-
-- Shared Library Architecture: Understood how Jenkins shared libraries are structured with vars/, src/, and resources/ directories
-
-- Pipeline as Code: Learned to write reusable pipeline components that can be shared across projects
-
-- Groovy Scripting: Gained experience writing Groovy functions and classes for Jenkins automation
-
-- Docker Integration: Implemented Docker-based build and deployment stages in Jenkins pipelines
-
-- Error Handling: Learned to debug Jenkins pipeline issues using console output and error messages
-
-- Version Control: Understood the importance of committing all necessary files (like package-lock.json/package.json) for CI/CD
-
-- Jenkins Configuration: Learned to configure global shared libraries and credentials in Jenkins
-
-## Conclusion
-
-This practical successfully demonstrated the creation and implementation of a Jenkins shared library for Node.js projects. The shared library approach significantly improves code reusability and maintenance in CI/CD pipelines.
-
-The shared library can now be used across multiple projects, ensuring consistent build processes, reducing duplication, and making pipeline maintenance much easier. This practical provides hands-on experience with advanced Jenkins concepts that are directly applicable in real-world DevOps scenarios.# DSO101_practical7
