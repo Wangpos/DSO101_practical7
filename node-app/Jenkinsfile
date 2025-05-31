@@ -1,0 +1,7 @@
+@Library('shared-library') _
+
+nodePipeline(
+    appDir: 'node-app',
+    nodeVersion: '18',
+    imageName: 'wangpo1642/node-app'
+)
